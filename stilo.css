@@ -78,11 +78,11 @@ body{
 
 .an1{
   background-color: #42a8a1;
-  width: 20%;
   margin: 0px;
-  height: 10%;
+  height: 15%;
   padding: 10px;
   border-radius: 25px;
+  width: 90%;
 }
 
 .enunciado2{
