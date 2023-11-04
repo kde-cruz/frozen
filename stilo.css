@@ -28,10 +28,10 @@ li a{
     display: block;
     color: blanchedalmond;
     text-align: center;
-    padding: 11px 70px;
+    padding: 11px 50px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 li a:hover{
@@ -55,7 +55,7 @@ body{
 .imgs img{
     vertical-align: top;
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     margin: 20px;
     opacity: 0.8;
 }
