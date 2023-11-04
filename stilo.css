@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.menu{
+    margin-top: 0px;
+    margin-bottom: 0%;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: #42a8a1;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display: block;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 11px 70px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+li a:hover{
+    background-color: #239089;
+}
+
+body{
+    background-repeat: repeat-y;
+    
+    background-size:   1349px 650px;
+    background-position: 0cm 6.5cm;
+}
+
+.imgs{
+    height: 100%;
+    margin-top: 0%;
+}
+
+.imgs img{
+    vertical-align: top;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+    opacity: 0.8;
+}
+
+.imgs img:hover{
+    opacity: 1;
+}
+
+.pie{
+    background-color:  #42a8a1;
+}
+
+.enunciado1{
+    background: url(img/34974.jpg);
+    height: 425px;
+    width: 1349px;
+    background-position: center center;
+    border-radius: 35px;
+}
+
+.an1{
+  background-color: #42a8a1;
+  width: 14%;
+  margin: 20px;
+  height: 5%;
+  padding: 10px;
+  border-radius: 25px;
+}
+
+.enunciado2{
+    background: url(img/baner3.png);
+    height: 300px;
+    width: 100%;
+    border-radius: 35px;
+}
+
+.img_noso img{
+    border-radius: 35px;
+}
+
+
