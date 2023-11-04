@@ -1,97 +1,107 @@
-* {
-    margin: 0;
-    padding: 0;
-    min-width: 300px;
+*{
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
 
-.menu {
-    margin-top: 0;
-    margin-bottom: 0;
+.menu{
+    margin-top: 0px;
+    margin-bottom: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-ul {
+ul{
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 0%;
+    padding: 0%;
     overflow: hidden;
     background-color: #42a8a1;
-    text-align: center;
 }
 
-li {
-    display: inline-block;
+li{
+    float: left;
 }
 
-li a {
+li a{
     display: block;
     color: blanchedalmond;
     text-align: center;
-    padding: 11px 4%; /* Adjust padding for responsiveness */
+    padding: 11px 70px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
 }
 
-li a:hover {
+li a:hover{
     background-color: #239089;
 }
 
-body {
+body{
     background-repeat: repeat-y;
-    background-size: 100% auto; /* Make background responsive */
-    background-position: center top; /* Center the background image vertically */
+    background-size:   100% auto;
+    background-position: 0cm 6.5cm;
 }
 
-.imgs {
-    margin: 20px auto; /* Center the images horizontally and add margin */
-    text-align: center;
+.imgs{
+    height: 100%;
+    margin-top: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.imgs img {
-    max-width: 100%; /* Make images responsive */
-    height: auto;
+.imgs img{
+    vertical-align: top;
+    width: 100%;
+    max-width: 400px;
     margin: 20px;
     opacity: 0.8;
 }
 
-.imgs img:hover {
+.imgs img:hover{
     opacity: 1;
 }
 
-.pie {
-    background-color: #42a8a1;
-    text-align: center;
-    padding: 10px;
+.pie{
+    background-color:  #42a8a1;
 }
 
-.enunciado1 {
+.enunciado1{
     background: url(img/34974.jpg);
     height: 425px;
-    width: 100%; /* Make it 100% width for responsiveness */
-    background-position: center top; /* Center the background image vertically */
+    width: 100%;
+    background-position: center center;
     border-radius: 35px;
 }
 
-.an1 {
-    background-color: #42a8a1;
-    width: 100%; /* Make it 100% width for responsiveness */
-    margin: 20px auto; /* Center the element horizontally */
-    height: auto;
-    padding: 10px;
-    border-radius: 25px;
-    text-align: center;
+.an1{
+  background-color: #42a8a1;
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
+  height: 5%;
+  padding: 10px;
+  border-radius: 25px;
 }
 
-.enunciado2 {
+.enunciado2{
     background: url(img/baner3.png);
     height: 300px;
-    width: 100%; /* Make it 100% width for responsiveness */
-    background-position: center top; /* Center the background image vertically */
+    width: 100%;
     border-radius: 35px;
 }
 
-.img_noso img {
-    max-width: 100%; /* Make images responsive */
+.img_noso img{
     border-radius: 35px;
+    width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    li a {
+        padding: 11px 20px;
+        font-size: 18px;
+    }
+}
+
